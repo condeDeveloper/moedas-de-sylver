@@ -1,0 +1,17 @@
+{
+  "name": "moedas-de-sylver",
+  "version": "1.0.0",
+  "description": "Moedas de Sylver varrido em todos os semigrupos numericos ate 24 lacunas: com 2, 4 ou 6 lacunas ninguem perde, e em {13, 14} o unico lance que ganha e o 155",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
